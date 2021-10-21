@@ -1,5 +1,5 @@
 ## SYNC
-A basic file 'synchronizer', or rather a savegame backupper. Uses a config file to check game and backup directories for newer or missing files, and then copies them over. If no config file is present, it generates a default one. To keep the files organized, the backups are always in ```.\saves\<name>```, which is fine for savegames, but not for anything else...
+A basic file 'synchronizer', or rather a savegame backupper. Checks game and backup directories for newer or missing files based on a config file, and then copies them over. If no config file is present, it generates a default one. To keep the files organized, the backups are always in ```.\saves\<name>```, which is fine for savegames, but not for anything else...
 
 ## Config
 * Format: ```<name> = <path>```
